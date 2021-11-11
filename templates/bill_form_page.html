@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="templates/styles.css" type = "type/css">
+    <title>Bill form</title>
+</head>
+<body>
+    <h1>Bill Form</h1>
+    <form action="/result" method="post">
+        {{billform.amount.label}} {{billform.amount}}
+        <br>
+        {{billform.period.label}} {{billform.period}}
+        <br><br>
+        {{billform.name1.label}} {{billform.name1}}
+        <br>
+        {{billform.day1.label}} {{billform.day1}}
+        <br><br>
+        {{billform.name2.label}} {{billform.name2}}
+        <br>
+        {{billform.day2.label}} {{billform.day2}}
+        <br><br>
+        {{billform.button}}
+
+    </form>
+</body>
+</html>
